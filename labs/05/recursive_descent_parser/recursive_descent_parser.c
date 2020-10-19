@@ -31,8 +31,8 @@ bool match(char t) {
 		return true;
     }
     else {
+        error();
         return false;
-		error();
     }
 }
 
@@ -75,8 +75,8 @@ bool T() {
             return true;
         }
         else {
-            return false;
             error();
+            return false;
         }    
     }
     else {
@@ -123,8 +123,8 @@ bool E() {
         return true;
     }
     else {
-        return false;
         error();
+        return false;
     }
 }
 
