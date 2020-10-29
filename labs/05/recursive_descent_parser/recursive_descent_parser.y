@@ -10,6 +10,8 @@
 Grammar:
 E -> T | T  + E
 T -> int | int * T| ( E ) 
+
+Sorry I forgot to add the lex, I will send you both part lex and yacc
 ***************************/
 
 %%
